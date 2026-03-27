@@ -1,0 +1,31 @@
+Generative AI and Retrieval-Augmented Generation (RAG)
+
+Generative AI refers to models that can generate new content such as text, images, or code. These models are typically based on transformer architectures and are trained on large datasets.
+
+One major limitation of generative models is hallucination. Hallucination occurs when a model generates information that is not grounded in reality or is factually incorrect.
+
+Retrieval-Augmented Generation (RAG) is a technique used to reduce hallucination. Instead of relying only on the model's internal knowledge, RAG retrieves relevant documents from an external database and provides them as context to the model.
+
+A typical RAG pipeline consists of the following steps:
+1. Document ingestion
+2. Text chunking
+3. Embedding generation
+4. Storage in a vector database
+5. Query embedding
+6. Similarity search
+7. Context injection into the prompt
+8. Response generation using an LLM
+
+Embeddings are numerical vector representations of text that capture semantic meaning. Similar texts have embeddings that are close in vector space.
+
+Vector databases such as Chroma store embeddings and allow efficient similarity search using metrics like cosine similarity.
+
+Chunking is an important step in RAG. If chunks are too large, retrieval becomes less precise. If chunks are too small, important context may be lost.
+
+Prompt engineering is also critical. The prompt must clearly instruct the model to use the provided context and avoid making up information.
+
+Smaller models (1B–3B parameters) are faster and require less memory but have weaker reasoning abilities. Larger models (7B+) perform better but require more computational resources.
+
+GPU acceleration significantly improves inference speed for transformer models. Using techniques like mixed precision (fp16) and quantization can further optimize performance.
+
+In summary, RAG improves the reliability of generative AI systems by combining retrieval mechanisms with language models.

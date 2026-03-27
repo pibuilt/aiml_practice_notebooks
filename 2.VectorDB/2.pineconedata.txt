@@ -1,0 +1,41 @@
+Artificial Intelligence (AI) is a field of computer science focused on building systems that can perform tasks requiring human intelligence. These tasks include learning, reasoning, problem-solving, and understanding language.
+
+Machine Learning (ML) is a subset of AI that allows systems to learn from data instead of being explicitly programmed. Common types include supervised learning, unsupervised learning, and reinforcement learning.
+
+Deep Learning is a subset of machine learning that uses neural networks with many layers. It is widely used in image recognition, speech processing, and natural language processing.
+
+Natural Language Processing (NLP) enables machines to understand and generate human language. Applications include chatbots, translation systems, and sentiment analysis.
+
+Transformers are a type of neural network architecture that rely on self-attention mechanisms. They are the foundation of modern large language models like GPT and BERT.
+
+BERT (Bidirectional Encoder Representations from Transformers) is designed for understanding text and is commonly used in search and question answering tasks.
+
+GPT (Generative Pre-trained Transformer) is designed for generating text. It predicts the next word in a sequence and is used in chatbots and content generation.
+
+Vector databases store data as embeddings (vectors). They enable semantic search by finding similar vectors instead of exact keyword matches.
+
+Embeddings are numerical representations of text that capture meaning. Similar texts have similar embeddings.
+
+Pinecone is a managed vector database used for storing and searching embeddings efficiently.
+
+Chroma is a lightweight vector database often used for local development and experimentation.
+
+Weaviate is an open-source vector database that supports hybrid search combining keyword and vector search.
+
+RAG (Retrieval-Augmented Generation) is a technique where relevant documents are retrieved and passed to a language model to generate better answers.
+
+LangChain is a framework for building applications with LLMs. It provides tools for chaining models, retrieval, and memory.
+
+FAISS is a library developed by Meta for efficient similarity search on large vector datasets.
+
+YOLO (You Only Look Once) is a real-time object detection system used in computer vision.
+
+YOLOv7 is an advanced version of YOLO that improves both speed and accuracy compared to previous versions.
+
+Gradient Descent is an optimization algorithm used to minimize loss functions by updating model parameters iteratively.
+
+Overfitting occurs when a model learns noise in the training data and performs poorly on unseen data.
+
+Regularization techniques like L1 and L2 help prevent overfitting by penalizing large weights.
+
+APIs (Application Programming Interfaces) allow different software systems to communicate with each other.
